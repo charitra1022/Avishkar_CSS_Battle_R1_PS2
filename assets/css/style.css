@@ -1,8 +1,45 @@
+body{
+  padding: 10rem;
+}
+
 .product-card {
+  position: relative;
   width: max-content;
   padding: 1rem;
   border-radius: 2rem;
   -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.44);
   -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.44);
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.44);
+}
+
+#discount {
+  /* for parent related positioning */
+  position: absolute;
+  
+  /* for colors */
+  background-color: #e69ba0;
+  color: #fff9f4;
+
+  /* for text font */
+  font-weight: bolder;
+  font-size: 1.6rem;
+
+  /* for centered displaying of content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* for rounded layout */
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  
+  /* for shadow */
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.44);
+
+  /* for positioning */
+  margin-left: 27rem;
+  margin-top: -3rem;
 }
