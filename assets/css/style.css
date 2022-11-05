@@ -183,3 +183,9 @@ body {
   background-color: #5a25fb;
   color: white;
 }
+
+.img img {
+  object-fit: contain;
+  aspect-ratio: 1/1;
+  width: 100%;
+}
