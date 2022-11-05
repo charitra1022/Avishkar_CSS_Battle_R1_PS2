@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "poppins-semibold";
+  src: url("/assets/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppins-light";
+  src: url("/assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
 body {
   padding: 10rem;
 }
@@ -42,4 +51,28 @@ body {
   /* for positioning */
   margin-left: 27rem;
   margin-top: -3rem;
+}
+
+.prod-name-price {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prod-name {
+  flex: 1 1;
+  /* background-color: red; */
+}
+.prod-name span {
+  display: block;
+}
+.prod-title {
+  font-size: 1.7rem;
+  /* font-weight: bolder; */
+  font-family: "poppins-semibold", sans-serif;
+}
+.prod-subtitle {
+  font-size: 1.2rem;
+  /* font-weight: lighter; */
+  font-family: "poppins-light", sans-serif;
+  color: #828278;
 }
