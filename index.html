@@ -72,9 +72,9 @@
               <span>Application Club</span>
             </div>
             <div class="quantity">
-              <button>+</button>
-              <span>2</span>
-              <button>-</button>
+              <button id="increment-quantity" onclick="editQuantity('+')">+</button>
+              <span id="quantity-display">2</span>
+              <button id="decrement-quantity" onclick="editQuantity('-')">-</button>
             </div>
           </div>
           <!-- END tag-quantity -->
@@ -89,5 +89,7 @@
         <!-- START Product details -->
       </div>
       <!-- END product-card  -->
+
+      <script src="assets/js/script.js"></script>
   </body>
 </html>
