@@ -95,6 +95,7 @@ body {
 .tag-quantity {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .tag-quantity .tag {
@@ -106,8 +107,25 @@ body {
   border-radius: 2rem;
   margin: 1rem;
   color: #ffffff;
-
 }
 .tag-quantity .quantity {
   flex: 1 1;
+  max-width: fit-content;
+  margin: 1rem;
+}
+
+.tag-quantity .quantity button {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background-color: #e8f6f9;
+  color: #00c07f;
+  font-size: 2.2rem;
+}
+.tag-quantity .quantity span {
+  font-size: 2rem;
+  padding: 0 1.3rem;
+  font-family: "poppins-light", sans-serif;
+  
 }
