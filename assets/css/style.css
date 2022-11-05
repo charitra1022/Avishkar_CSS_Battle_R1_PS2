@@ -122,6 +122,7 @@ body {
   background-color: #e8f6f9;
   color: #00c07f;
   font-size: 2.2rem;
+  cursor: pointer;
 }
 .tag-quantity .quantity span {
   font-size: 2rem;
@@ -141,6 +142,7 @@ body {
   border: none;
   padding: 0.8rem;
   border-radius: 1rem;
+  cursor: pointer;
 }
 .btn .buy-now-btn {
   background-color: #faa700;
