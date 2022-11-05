@@ -1,0 +1,87 @@
+<!-- 
+    Problem Statement 2
+
+    Event: CSS Battle
+    Tagline: Battle It Out - The CSS Version
+    Problem Statement designed by: 
+    Prakhar Gupta
+    (MCA Final Year)
+    Departmental Co-ordinator, CSED
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Product Card</title>
+  </head>
+
+  <body>
+    <!-- START product-card  -->
+    <div class="product-card">
+      <span id="discount">- 18%</span>
+
+      <!-- START Product image -->
+      <div class="img">
+        <img src="assets/images/tshirt.jpeg" />
+      </div>
+      <!-- END Product image -->
+
+      <!-- START Product details -->
+      <div class="product-details">
+        <!-- START prod-name-price -->
+        <div class="prod-name-price">
+          <div class="prod-name">
+            <span>Addidas Original</span>
+            <span>Premium Quality T-Shirt</span>
+          </div>
+          <div class="prod-price">
+            <span>₹290</span>
+            <span><s>₹400</s></span>
+          </div>
+        </div>
+        <!-- END prod-name-price -->
+        
+        <!-- START size -->
+        <div class="size">
+          <div class="sizes">
+            <input type="radio" id="s" name="size" value="s" />
+            <label for="s">S</label>
+            <input type="radio" id="m" name="size" value="m" />
+            <label for="m">M</label>
+            <input type="radio" id="l" name="size" value="l" />
+            <label class="selected" for="l">L</label>
+            <input type="radio" id="xl" name="size" value="xl" />
+            <label for="xl">XL</label>
+          </div>
+        </div>
+        <!-- END size -->
+
+        <!-- START tag-quantity -->
+        <div class="tag-quantity">
+          <div class="tag">
+            <span>Application Club</span>
+          </div>
+          <div class="quantity">
+            <button>+</button>
+            <span>2</span>
+            <button>-</button>
+          </div>
+        </div>
+        <!-- END tag-quantity -->
+
+        <!-- START btn -->
+        <div class="btn">
+          <button type="submit">Add To Cart</button>
+          <button type="submit">Buy Now</button>
+        </div>
+        <!-- END btn -->
+
+      </div>
+      <!-- START Product details -->
+    </div>
+    <!-- END product-card  -->
+  </body>
+</html>
