@@ -91,3 +91,23 @@ body {
   font-family: "poppins-light", sans-serif;
   color: #828278;
 }
+
+.tag-quantity {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-quantity .tag {
+  flex: 1 1;
+  padding: 0.5rem 1rem;
+  background-color: #df9d9e;
+  font-family: "poppins-semibold", sans-serif;
+  max-width: max-content;
+  border-radius: 2rem;
+  margin: 1rem;
+  color: #ffffff;
+
+}
+.tag-quantity .quantity {
+  flex: 1 1;
+}
